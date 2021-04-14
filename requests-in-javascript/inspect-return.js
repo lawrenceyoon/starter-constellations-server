@@ -15,3 +15,5 @@ new Promise((resolve, reject) => {
 
 // Removing return from .then and/or .catch => in final then, reponse = NaN
 // Regardless of .then or .catch, will run the final .then
+
+// IF RESOLVED, WILL MOVE TO THEN. IF REJECT, WILL MOVE TO CATCH. IF THERE IS A THEN CHAINED AFTER ANY REJECT OR CATCH, WILL RUN CHAINED THEN.
